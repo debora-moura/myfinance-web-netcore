@@ -7,6 +7,6 @@ A figura abaixo representa a modelagem lógica do ba
 nco de dados da aplicação modelo de DER - Diagramas de Entidades e Relacionamentos.
 
 
-<img src="docs\DER.png" alt ="diagram">
+<img src="docs\DER.png" alt="diagram">
 
 <hr />
