@@ -54,7 +54,7 @@
 
   <div class="form-group">
 <label>Historico:</label>
-<@Html.TextArea("Historico", vDescricao, new { @class = "form-control" })
+@Html.TextArea("Historico", vDescricao, new { @class = "form-control" })
 <span asp-validation-for="Historico" class="text-danger"> </span>
 </div>
 
@@ -82,5 +82,3 @@
 
 <button type ="submit" class="btn btn-block btn-sucess"> Registrar</button>
 </form>
-
-  

@@ -3,7 +3,7 @@ MyFinance - Projeto do Curso de Pós Graduação em Engenharia de Software da PU
 
 # Arquitetura
 
-A figura abaixo representa a modelagem lógica do banco de dados da aplicação modelo de DER - Diagramas de Entidades e Relacionamentos.
+- A figura abaixo representa a modelagem lógica do banco de dados da aplicação modelo de DER - Diagramas de Entidades e Relacionamentos.
 
 
 <img src="docs\DER.png" alt="diagram">

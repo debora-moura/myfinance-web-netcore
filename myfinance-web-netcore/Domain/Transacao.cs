@@ -9,11 +9,12 @@ namespace myfinance_web_netcore.Domain
 {
     public class Transacao
     {
+         private const int V = 0;
         public void Inserir (TransacaoModel formulario)
         {
      var objDAL = DAL.GetInstancia;
         objDAL.Conectar();
-        var sql = "INSERT INTO TRANSACAO(id, data, valor, tipo, historico id_plano_conta) " +
+        var sql = "INSERT INTO TRANSACAO(id, data, valor, tipo, historico, id_plano_conta) " +
         "VALUES('" + 
         $"{formulario.Data.ToString("yyyy-MM-dd")}'," +
         $"{formulario.Valor}," +
@@ -46,16 +47,17 @@ namespace myfinance_web_netcore.Domain
         var objDAL = DAL.GetInstancia;
         objDAL.Conectar();
 
-        var sql =$"select id, data, valor, tipo, historico id_plano_conta  from transacao WHERE ID = {id}";
-        var dataTable = objDAL.RetornaDataTable(sql);
+        var sql =$"select id, data, valor, tipo, historico, id_plano_conta from transacao WHERE ID = {id}";
+        var dataTable = objDAL.RetornarDataTable(sql);
+        Console.WriteLine(dataTable);
 
             var transacao = new TransacaoModel(){
-             Id = int.Parse(dataTable.Rows[0]["ID"].ToString()),
-             Historico = dataTable.Rows[0]["HISTORICO"].ToString(),
-             Tipo = dataTable.Rows[0]["TIPO"].ToString(),
+             Id = int.Parse(dataTable.Rows[0]["id"].ToString()),
+             Historico = dataTable.Rows[0]["Historico"].ToString(),
+             Tipo = dataTable.Rows[0]["Tipo"].ToString(),
              Data = DateTime.Parse(dataTable.Rows[0]["data"].ToString()),
-             Valor = decimal.Parse(dataTable.Rows[0]["VALOR"].ToString()),
-             IdPlanoConta = int.Parse(dataTable.Rows[0]["ID"].ToString()),
+             Valor = decimal.Parse(dataTable.Rows[0]["valor"].ToString()),
+             IdPlanoConta = int.Parse(dataTable.Rows[0]["id_plano_conta"].ToString()),
             };
       
          objDAL.Desconectar();
@@ -67,21 +69,22 @@ namespace myfinance_web_netcore.Domain
           public List<TransacaoModel> ListaTransacoes()
     {
         List<TransacaoModel> lista = new List<TransacaoModel>();
+
         var objDAL = DAL.GetInstancia;
         objDAL.Conectar();
 
-        var sql ="select id, data, valor, tipo, historico id_plano_conta  from transacao";
-        var dataTable = objDAL.RetornaDataTable(sql);
+        var sql ="select id, data, valor, tipo, historico, id_plano_conta from transacao";
+        var dataTable = objDAL.RetornarDataTable(sql);
 
         for (int i = 0; i <dataTable.Rows.Count; i++)
         {
             var transacao = new TransacaoModel(){
-             Id = int.Parse(dataTable.Rows[i]["ID"].ToString()),
-             Data = DateTime.Parse (dataTable.Rows[i]["DATA"].ToString()),
-             Valor = decimal.Parse (dataTable.Rows[i]["VALOR"].ToString()),
-             Tipo = dataTable.Rows[i]["TIPO"].ToString(),
-             Historico = dataTable.Rows[i]["HISTORICO"].ToString(),
-              IdPlanoConta = int.Parse(dataTable.Rows[i]["ID_PLANO_CONTA"].ToString()),
+             Id = int.Parse(dataTable.Rows[i]["id"].ToString()),
+             Data = DateTime.Parse (dataTable.Rows[i]["data"].ToString()),
+             Valor = decimal.Parse (dataTable.Rows[i]["valor"].ToString()),
+             Tipo = dataTable.Rows[i]["Tipo"].ToString(),
+             Historico = dataTable.Rows[i]["Historico"].ToString(),
+              IdPlanoConta = int.Parse(dataTable.Rows[i]["id_plano_conta"].ToString()),
              
 
             };

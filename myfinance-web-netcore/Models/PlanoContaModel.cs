@@ -45,7 +45,7 @@ namespace myfinance_web_netcore.Models
         objDAL.Conectar();
 
         var sql =$"SELECT ID, DESCRICAO, TIPO FROM PLANO_CONTAS WHERE ID = {id}";
-        var dataTable = objDAL.RetornaDataTable(sql);
+        var dataTable = objDAL.RetornarDataTable(sql);
 
             var planoConta = new PlanoContaModel(){
              Id = int.Parse(dataTable.Rows[0]["ID"].ToString()),
@@ -64,7 +64,7 @@ namespace myfinance_web_netcore.Models
         objDAL.Conectar();
 
         var sql ="SELECT ID, DESCRICAO, TIPO FROM PLANO_CONTAS";
-        var dataTable = objDAL.RetornaDataTable(sql);
+        var dataTable = objDAL.RetornarDataTable(sql);
 
         for (int i = 0; i <dataTable.Rows.Count; i++)
         {
