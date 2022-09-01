@@ -16,9 +16,9 @@
   try{
      vId = int.Parse(@ViewBag.Registro.Id.ToString());
      vData = DateTime.Parse(@ViewBag.Registro.Data.ToString()).ToString("yyyy-MM-dd");
-    vPlanoContaId = int.Parse(@ViewBag.Registro.IdPlanoConta.ToString());
-    vDescricao = @ViewBag.Registro.historico.ToString();
-    vTipo = @ViewBag.Registro.Tipo.ToString();
+     vPlanoContaId = int.Parse(@ViewBag.Registro.IdPlanoConta.ToString());
+     vDescricao = @ViewBag.Registro.Historico.ToString();
+     vTipo = @ViewBag.Registro.Tipo.ToString();
 
     CultureInfo invC = CultureInfo.InvariantCulture;
     string value;
@@ -37,23 +37,23 @@
 
   <div class="form-group">
 <label>Data:</label>
-<input type="date" class="form-control" asp-for="Data" value="=@vData">
+<input type="date" class="form-control" asp-for="Data" value="@vData">
 <span asp-validation-for="Data" class="text-danger"> </span>
 </div>
 
 <div class="form-group">
   <label> Tipo:</label>
-  <input type="text" class="form-control" asp-for="Tipo" value="=@vTipo">
+  <input type="text" class="form-control" asp-for="Tipo" value="@vTipo">
 </div>
 
   <div class="form-group">
 <label>Valor:</label>
-<input type="text" class="form-control" asp-for="Valor" step="0.01" value="=@vValor">
+<input type="text" class="form-control" asp-for="Valor" step="0.01" value="@vValor">
 <span asp-validation-for="Data" class="text-danger"> </span>
 </div>
 
   <div class="form-group">
-<label>Historico:</label>
+<label>Histórico:</label>
 @Html.TextArea("Historico", vDescricao, new { @class = "form-control" })
 <span asp-validation-for="Historico" class="text-danger"> </span>
 </div>
@@ -80,5 +80,5 @@
 </select>
 </div>
 
-<button type ="submit" class="btn btn-block btn-sucess"> Registrar</button>
+<button type ="submit" class="btn btn-block btn-success"> Registrar</button>
 </form>

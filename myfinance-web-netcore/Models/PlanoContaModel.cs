@@ -11,7 +11,8 @@ namespace myfinance_web_netcore.Models
 
     public string? Tipo { get; set; } 
     
-    public void Inserir(){
+    public void Inserir()
+    {
          var objDAL = DAL.GetInstancia;
         objDAL.Conectar();
         var sql =$"INSERT INTO PLANO_CONTAS (DESCRICAO, TIPO) VALUES('{Descricao}','{Tipo}')"; 
@@ -30,7 +31,8 @@ namespace myfinance_web_netcore.Models
         objDAL.Desconectar();
     }
 
-     public void Excluir(int id){
+     public void Excluir(int id)
+     {
          var objDAL = DAL.GetInstancia;
         objDAL.Conectar();
         var sql =$"DELETE FROM PLANO_CONTAS WHERE ID = {id}"; 
@@ -47,7 +49,9 @@ namespace myfinance_web_netcore.Models
         var sql =$"SELECT ID, DESCRICAO, TIPO FROM PLANO_CONTAS WHERE ID = {id}";
         var dataTable = objDAL.RetornarDataTable(sql);
 
-            var planoConta = new PlanoContaModel(){
+            var planoConta = new PlanoContaModel()
+            {
+
              Id = int.Parse(dataTable.Rows[0]["ID"].ToString()),
              Descricao = dataTable.Rows[0]["DESCRICAO"].ToString(),
              Tipo = dataTable.Rows[0]["TIPO"].ToString()
@@ -60,6 +64,7 @@ namespace myfinance_web_netcore.Models
     public List<PlanoContaModel> ListaPlanoContas()
     {
         List<PlanoContaModel> lista = new List<PlanoContaModel>();
+        
         var objDAL = DAL.GetInstancia;
         objDAL.Conectar();
 
