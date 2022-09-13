@@ -24,8 +24,7 @@ O entity se encaixa entre as entidades de negócios e o banco de dados. Ele salv
 Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período onde é possível que o usuário visualize o total de sua receita e despesas por um período desejado.
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
- 
-<div> <script>
+  <script>
 var chart = null;
     function loadDraft(d, c) {
         if (chart != null) {
@@ -54,4 +53,4 @@ var chart = null;
         const myChart = new Chart(ctx, config);
         chart = myChart;
     }
-</script> </div>
+</script>
