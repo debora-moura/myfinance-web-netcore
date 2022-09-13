@@ -3,7 +3,7 @@ MyFinance - Projeto do Curso de Pós Graduação em Engenharia de Software da PU
 
 # Arquitetura
 
-Para desenvolvimento desta aplicação dividimos em três camadas são elas de acesso aos dados, engenharia de negócio e camada da aplicação que seria a parte do MVC.
+Para desenvolvimento desta aplicação dividimos em três camadas são elas: Acesso aos dados, Engenharia de negócio e camada da Aplicação que seria a parte do MVC.
 A Camada Business: Possui a lógica de serviço, as models, views e controlles.
 
 <img src="docs\projetmyfinance.png" alt="estrutura">
@@ -23,13 +23,6 @@ O entity se encaixa entre as entidades de negócios e o banco de dados. Ele salv
 
 Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período onde é possível que o usuário visualize o total de sua receita e despesas por um período desejado.
 
-
-
-<div style="margin-left: auto; margin-right: auto; width: 300px; height: 100px;">
-
-    <canvas id="myChart" width="400px" height="400px"></canvas>
-
-</div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
@@ -65,6 +58,4 @@ var chart = null;
 </script>
 
 
-
-
-<hr />
+<hr/>
