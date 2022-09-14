@@ -3,7 +3,7 @@ MyFinance - Projeto do Curso de Pós Graduação em Engenharia de Software da PU
 
 # 💻 Arquitetura
 
-Para desenvolvimento desta aplicação dividimos em três camadas são elas: Acesso aos dados, Engenharia de negócio e camada da Aplicação que seria a parte do MVC.
+Para desenvolvimento desta aplicação dividimos em três camadas são elas: Acesso aos dados, Engenharia de negócio e camada da Aplicação que seria a parte do MVC. A utilização do padrão MVC traz como benefício o isolamento das regras de negócios da lógica de apresentação, que é a interface com o usuário. Isto possibilita a existência de várias interfaces com o usuário que podem ser modificadas sem a necessidade de alterar as regras de negócios, proporcionando muito mais flexibilidade e oportunidades de reuso das classes.
 A Camada Business: Possui a lógica de serviço, Model, View e Controller.
 
 <img src="docs\projetmyfinance.png" alt="estrutura">
@@ -19,6 +19,15 @@ A figura abaixo apresenta o processo do Entity Framework no qual se encaixa em u
  
 O entity se encaixa entre as entidades de negócios e o banco de dados. Ele salva dados armazenados nas propriedades de entidades de negócios e também recupera dados do banco e os converte em objetos de entidades de negócios 
 automaticamente.
+
+## 💻 Pré - Requisitos
+
+Antes de iniciar,  verificar se obtém os seguintes requisitos:
+- Versão atualizada do Visual Studio Code
+- Extensão do C# para Visual Studio Code
+- Versão mais atualizada Git.
+- .NET Core SDK 6.0.
+- Última versão do C# extensions, o qual deve ser instalado no Visual Studio Code
 
 
 # Chart.Js
