@@ -23,7 +23,7 @@ automaticamente.
 
 # Chat.Js
 
-Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período, sendo possível que o usuário visualize o total de suas receitas e despesas por um período desejado.
+Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de crédito e débito por período, sendo possível que o usuário visualize o total de suas receitas e despesas por um período desejado.
 
 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
