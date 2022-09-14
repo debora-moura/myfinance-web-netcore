@@ -32,10 +32,10 @@ https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
 ## ☕ Contribuidores<br>
 
-<img src="https://avatars.githubusercontent.com/u/48659873?v=4" width=115 > <br> <sub> Luiz David </sub> (https://github.com/LuizDavidOlv) |
+<img src="https://avatars.githubusercontent.com/u/48659873?v=4" width=100 > <br> <sub> Luiz David </sub> (https://github.com/LuizDavidOlv) |
 | :---: |
 
-<img src="https://avatars.githubusercontent.com/u/43283168?v=4" width=115 > <br> <sub> Rodrigo Moreira </sub> (https://github.com/Rdsm02)  |
+<img src="https://avatars.githubusercontent.com/u/43283168?v=4" width=100 > <br> <sub> Rodrigo Moreira </sub> (https://github.com/Rdsm02)  |
 | :---: |
 
 
