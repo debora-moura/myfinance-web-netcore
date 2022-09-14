@@ -38,7 +38,7 @@ https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
 
 <img src="https://avatars.githubusercontent.com/u/100494953?v=4" width=70> <br> <sub> Débora Moura: </sub>https://github.com/debora-moura|
-| :---: |
+
 
 
 
