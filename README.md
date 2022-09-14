@@ -27,37 +27,11 @@ Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxili
 
 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
-<img src="Codchartjs.png" alt="codigo">
+<img src="Codchartjs.png" alt="cod">
 
 ## ☕ Contribuidores<br>
-	<table>
-	  <tr>
-	    <td align="center">
-	      <a href="#">
-	        <img src="https://avatars.githubusercontent.com/u/48659873?v=4
-width="100px;" alt="Foto do David Oliveira GitHub"/><br>
-	        <sub>
-	          <b>Luiz David de Oliveira</b>
-	        </sub>
-	      </a>
-	    </td>
-	    </td>
-	  </tr>
-	</table>
 
-	<table>
-	  <tr>
-	    <td align="center">
-	      <a href="#">
-	        <img src="https://avatars.githubusercontent.com/u/43283168?v=4 width="100px;" alt="Foto do Rodrigo GitHub"/><br>
-	        <sub>
-	          <b>Rodrigo dos Santos Moreira</b>
-	        </sub>
-	      </a>
-	    </td>
-	    </td>
-	  </tr>
-	</table>
+
 
 
 
