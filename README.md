@@ -13,7 +13,7 @@ A Camada Business: Possui a lógica de serviço, Model, View e Controller.
 Para o banco de dados neste projeto foi utilizado o Entity Framework versão 6, não usamos o C# puro e utilizamos métodos assíncronos.
 o Entity Framework é uma estrutura ORM de código aberto para aplicativos .NET com suporte da Microsoft. Ele permite que os desenvolvedores trabalhem com dados usando objetos de classes específicas de domínio sem se concentrar nas tabelas e colunas subjacentes do banco de dados onde esses dados são armazenados. Com o Entity Framework, os desenvolvedores podem trabalhar em um nível mais alto de abstração quando lidam com dados e podem criar e manter aplicativos orientados a dados com menos código em comparação com aplicativos tradicionais.
 
-A figura abaixo apresenta onde o Entity Framework se encaixa em uma aplicação:
+A figura abaixo apresenta o processo do Entity Framework no qual se encaixa em uma aplicação:
 
 <img src="docs\Entiity.png" alt="banco">
  
@@ -23,7 +23,7 @@ automaticamente.
 
 # Chat.Js
 
-Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período onde é possível que o usuário visualize o total de sua receita e despesas por um período desejado.
+Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período, sendo possível que o usuário visualize o total de suas receitas e despesas por um período desejado.
 
 https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
