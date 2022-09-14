@@ -32,12 +32,12 @@ https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
 ## ☕ Contribuintes do Projeto<br>
 
-<img src="https://avatars.githubusercontent.com/u/48659873?v=4" width=70> <br> <sub> Luiz David: </sub> https://github.com/LuizDavidOlv|
+<img src="https://avatars.githubusercontent.com/u/48659873?v=4" width=80> <br> <sub> LUIZ DAVID: </sub> https://github.com/LuizDavidOlv
 
-<img src="https://avatars.githubusercontent.com/u/43283168?v=4" width=70> <br> <sub> Rodrigo Moreira: </sub>https://github.com/Rdsm02|
+<img src="https://avatars.githubusercontent.com/u/43283168?v=4" width=80> <br> <sub> RODRIGO MOREIRA: </sub>https://github.com/Rdsm02
 
 
-<img src="https://avatars.githubusercontent.com/u/100494953?v=4" width=70> <br> <sub> Débora Moura: </sub>https://github.com/debora-moura|
+<img src="https://avatars.githubusercontent.com/u/100494953?v=4" width=80> <br> <sub> DÉBORA MOURA: </sub>https://github.com/debora-moura
 
 
 
