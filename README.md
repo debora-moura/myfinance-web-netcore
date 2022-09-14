@@ -26,7 +26,11 @@ automaticamente.
 Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período onde é possível que o usuário visualize o total de sua receita e despesas por um período desejado.
 
  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
+<<<<<<< HEAD
  <script>
+=======
+  <script>
+>>>>>>> 7c1d1e216b871790e06d46f69fb8e9d68c24b25c
 var chart = null;
     function loadDraft(d, c) {
         if (chart != null) {
@@ -55,5 +59,9 @@ var chart = null;
         const myChart = new Chart(ctx, config);
         chart = myChart;
     }
+<<<<<<< HEAD
 </script> 
 <div id="grafico"> </div>
+=======
+</script>
+>>>>>>> 7c1d1e216b871790e06d46f69fb8e9d68c24b25c
