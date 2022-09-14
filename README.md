@@ -4,7 +4,7 @@ MyFinance - Projeto do Curso de Pós Graduação em Engenharia de Software da PU
 # 💻 Arquitetura
 
 Para desenvolvimento desta aplicação dividimos em três camadas são elas: Acesso aos dados, Engenharia de negócio e camada da Aplicação que seria a parte do MVC.
-A Camada Business: Possui a lógica de serviço, as models, views e controlles.
+A Camada Business: Possui a lógica de serviço, Model, View e Controller.
 
 <img src="docs\projetmyfinance.png" alt="estrutura">
 
@@ -32,10 +32,10 @@ https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
 
 ## ☕ Contribuidores<br>
 
-<img src="https://avatars.githubusercontent.com/u/48659873?v=4" width=100 > <br> <sub> Luiz David: </sub> https://github.com/LuizDavidOlv |
+<img src="https://avatars.githubusercontent.com/u/48659873?v=4" width=70> <br> <sub> Luiz David: </sub> https://github.com/LuizDavidOlv |
 | :---: |
 
-<img src="https://avatars.githubusercontent.com/u/43283168?v=4" width=100 > <br> <sub> Rodrigo Moreira: </sub>https://github.com/Rdsm02 |
+<img src="https://avatars.githubusercontent.com/u/43283168?v=4" width=70> <br> <sub> Rodrigo Moreira: </sub>https://github.com/Rdsm02 |
 | :---: |
 
 
