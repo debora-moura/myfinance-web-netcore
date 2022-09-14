@@ -25,43 +25,40 @@ automaticamente.
 
 Neste projeto, utilizamos o Chart. JS é uma biblioteca em JavaScript que auxilia na criação de gráficos utilizando apenas HTML, CSS e JS para renderizar os gráficos na tela do usuário, utilizamos para criação do projeto o gráfico de pizza referente as transações, ou seja, tudo que foi gasto de credito e debito por período onde é possível que o usuário visualize o total de sua receita e despesas por um período desejado.
 
- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js"></script>
-<<<<<<< HEAD
- <script>
-=======
-  <script>
->>>>>>> 7c1d1e216b871790e06d46f69fb8e9d68c24b25c
-var chart = null;
-    function loadDraft(d, c) {
-        if (chart != null) {
-            chart.destroy();
-        }
-        const data = {
-            labels: [
-                'Débito',
-                'Credito'
-            ],
-            datasets: [{
-                label: 'My First Dataset',
-                data: [d, c],
-                backgroundColor: [
-                    'rgb(255, 99, 132)',
-                    'rgb(54, 162, 235)'
-                ],
-                hoverOffset: 4
-            }]
-        };
-        const config = {
-            type: 'pie',
-            data: data,
-        };
-       const ctx = document.getElementById('myChart').getContext('2d');
-        const myChart = new Chart(ctx, config);
-        chart = myChart;
-    }
-<<<<<<< HEAD
-</script> 
-<div id="grafico"> </div>
-=======
-</script>
->>>>>>> 7c1d1e216b871790e06d46f69fb8e9d68c24b25c
+https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.js
+
+<img src="Codchartjs.png" alt="codigo">
+
+## ☕ Contribuidores<br>
+	<table>
+	  <tr>
+	    <td align="center">
+	      <a href="#">
+	        <img src="https://avatars.githubusercontent.com/u/48659873?v=4
+width="100px;" alt="Foto do David Oliveira GitHub"/><br>
+	        <sub>
+	          <b>Luiz David de Oliveira</b>
+	        </sub>
+	      </a>
+	    </td>
+	    </td>
+	  </tr>
+	</table>
+
+	<table>
+	  <tr>
+	    <td align="center">
+	      <a href="#">
+	        <img src="https://avatars.githubusercontent.com/u/43283168?v=4 width="100px;" alt="Foto do Rodrigo GitHub"/><br>
+	        <sub>
+	          <b>Rodrigo dos Santos Moreira</b>
+	        </sub>
+	      </a>
+	    </td>
+	    </td>
+	  </tr>
+	</table>
+
+
+
+
